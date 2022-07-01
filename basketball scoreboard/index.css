@@ -1,0 +1,67 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  background-color: rgb(27, 36, 74);
+}
+
+.container {
+  width: 400px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.counter-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  height: 35%;
+  border-radius: 5px;
+}
+
+.Home,
+.Guest {
+  display: flex;
+  justify-content: center;
+}
+
+h3 {
+  font-family: Verdana;
+  font-weight: bold;
+  color: white;
+}
+
+button {
+  height: 30px;
+  width: 30px;
+  font-family: Cursed Timer ULiL;
+  background-color: rgb(27, 36, 74);
+  color: rgb(154, 171, 216);
+  border-style: solid;
+  border-color: rgb(154, 171, 216);
+  border-radius: 2px;
+  border-width: 1px;
+}
+
+.button-container {
+  margin-top: 15px;
+}
+
+p {
+  color: rgb(249, 79, 109);
+  font-family: Cursed Timer ULiL;
+  font-size: 50px;
+}
+
+.new-game {
+  width: 100px;
+  color: white;
+  border-color: white;
+}
+
+.new-game-container {
+  display: flex;
+  align-items: center;
+}
